@@ -1,0 +1,9 @@
+*
+!Dockerfile
+!Dockerfile.test
+!main.py
+!requirements.txt
+!source_dynamodb_singer
+!setup.py
+!secrets
+!vendored_tap

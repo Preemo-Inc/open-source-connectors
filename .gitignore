@@ -1,0 +1,32 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+.DS_Store
+*.pyc
+*/.idea/*
+.idea/*
+!.idea/codeStyles
+*.iml
+node_modules/
+**/.yarn/install-state.gz
+*__pycache__
+venv*
+
+*.swp
+*.swo
+*.swn
+*.py~
+*.html~
+*.js~
+*.ids
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# utility
+*gitignore*.ts
+*gitignore*.tsx
+*gitignore*.ts
+*gitignore*.txt
+.envrc.private
