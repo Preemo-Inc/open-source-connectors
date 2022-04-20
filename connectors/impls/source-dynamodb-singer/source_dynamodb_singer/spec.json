@@ -1,0 +1,32 @@
+{
+  "documentationUrl": "https://github.com/Preemo-Inc/open-source-connectors/blob/main/connectors/impls/source-dynamodb-singer/README.md",
+  "connectionSpecification": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Source DynamoDB Singer Spec",
+    "type": "object",
+    "required": ["account_id", "external_id", "region_name", "role_name"],
+    "additionalProperties": true,
+    "properties": {
+      "account_id": {
+        "description": "The AWS account ID to use for the connection.",
+        "title": "Account ID",
+        "type": "string"
+      },
+      "external_id": {
+        "description": "The external ID to use for the connection.",
+        "title": "External ID",
+        "type": "string"
+      },
+      "region_name": {
+        "description": "The region name to use for the connection.",
+        "title": "Region Name",
+        "type": "string"
+      },
+      "role_name": {
+        "description": "The role name to use for the connection.",
+        "title": "Role Name",
+        "type": "string"
+      }
+    }
+  }
+}
